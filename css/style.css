@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+/* Classes auxiliar */
+.input {
+    background-color: #dedede;
+    border: none;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.label {
+    font-weight: 600;
+}
+
+.form__login_logo {
+    width: 300px;
+    margin-top: 30px;
+}
+
+main {
+    width: 100%;
+    max-width: 768px;
+    padding: 0 18px;
+    margin: 0 auto;
+}
+
+.form__input-group {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 14px;
+
+}
+
+.form__password_forget {
+    display: flex;
+    align-items: end;
+    color: #000;
+}
+
+.form__password_forget > a {
+    text-decoration: none;
+}
+
+.form__button_submit {
+    width: 70%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background: #27292d;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.form__recover_account {
+    display: flex;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.form__recover_account > a {
+    color: #000;
+    text-decoration: none;
+}
+.form {  
+
+
+margin-top: 100px;
+
+margin-left: 180px;
+
+
+}
+
+
+.i {
+margin-top: 30px;
+
+margin-left: 95px;
+
+}
